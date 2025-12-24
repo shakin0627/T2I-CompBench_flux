@@ -87,7 +87,7 @@ The evaluation result directory should include a json file named "vqa_result.jso
 ```
 The question_id is the _last 6 digits_ of the image file name, for example, _a green bench and a blue bowl_000000.png_ is with question_id _0_, and the evaluation score _0.6900_.
 
-
+You need to generate images for each category from this [dataset](https://github.com/Karine-Huang/T2I-CompBench/tree/main/examples/dataset) as described above separately, and get the evaluation results below. 
 
 
 #### 1. BLIP-VQA for Attribute Binding:
@@ -330,5 +330,6 @@ author={Huang, Kaiyi and Duan, Chengqi and Sun, Kaiyue and Xie, Enze and Li, Zhe
   ### License
 
 This project is licensed under the MIT License. See the "License.txt" file for details. For detailed information on third-party licenses, please see the [NOTICE.md](https://github.com/Karine-Huang/T2I-CompBench/edit/main/NOTICE.md) file.
+
 
 

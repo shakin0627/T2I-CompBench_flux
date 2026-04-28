@@ -52,7 +52,7 @@ def main():
         data=f.readlines()
         data=[i.strip('\n').split('.')[0].lower() for i in data]
 
-    num=10 #number of images for each prompt
+    num=2 #number of images for each prompt
     dataset_num=len(data)
     total_score=np.zeros(num*dataset_num)
     spatial_score=np.array(spatial_score)
